@@ -1,2 +1,103 @@
-/*
-TODO: At least 1 MQ
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: var(--color-font-black);
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url("/assets/img/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: blur(2px);
+  filter: blur(1px);
+  border: none;
+  opacity: 0.75;
+} */
+
+#navbar {
+  margin: 0 auto;
+  background-color: #5e5c72;
+  position: sticky;
+  top: 0;
+}
+
+#navlist {
+  list-style-type: none;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-left: -30px;
+}
+
+#logo {
+  width: 100%;
+  max-width: 6.5rem;
+  height: auto;
+}
+
+#navlist a {
+  text-decoration: none;
+}
+
+#navlist a:link {
+  color: blue;
+}
+#navlist a:visited {
+  color: blue;
+}
+#navlist a:hover {
+  color: orange;
+}
+#navlist a:active {
+  color: orange;
+}
+#navlist a:focus {
+  color: orange;
+}
+
+#main-content {
+  margin-top: 6rem;
+}
+
+#welcome-section {
+  height: 100vh;
+  text-align: center;
+}
+
+#welcome-header {
+  font-size: 3rem;
+}
+
+#welcome-p {
+  font-size: 1.75rem;
+}
+
+@media only screen and (min-width: 768px) {
+  #navlist {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
