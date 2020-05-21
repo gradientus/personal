@@ -52,6 +52,7 @@ body {
   margin: 0 auto;
   padding: 0.5rem 0;
   background-color: var(--main-red);
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -61,6 +62,8 @@ body {
   text-align: center;
   line-height: 1.5;
   font-size: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   /* margin-left: -30px; */
 }
 
@@ -101,7 +104,7 @@ body {
   font-size: 3rem;
   font-weight: 400;
   font-family: "Fira Sans", arial, sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 #welcome-p {
@@ -110,6 +113,21 @@ body {
 
 #projects {
   background-color: var(--main-blue);
+  padding-top: 3rem;
+  text-align: center;
+  padding-top: 16rem;
+}
+
+#projects h2 {
+  font-family: "Fira Sans", arial, sans-serif;
+  letter-spacing: 3px;
+}
+
+.project-tile {
+  margin: 1rem 0.5rem 0 0.5rem;
+  padding: 2rem 1rem;
+  text-align: left;
+  border: var(--main-gray) 2px solid;
 }
 
 #contact {
@@ -118,8 +136,19 @@ body {
 
 @media only screen and (min-width: 768px) {
   #navlist {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  #projects {
+    padding-top: 1rem;
   }
 }
 
