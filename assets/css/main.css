@@ -136,6 +136,14 @@ h1 h2 h3 {
   border: var(--main-gray) 2px solid;
 }
 
+.btn {
+  background-color: green;
+  font-size: 1.125rem;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
 #contact {
   background-color: var(--main-gray);
   text-align: center;
