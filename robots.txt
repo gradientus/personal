@@ -1,2 +1,77 @@
 User-agent: *
-Allow: /
+Allow:
+
+User-agent: BaiduSpider
+Disallow:
+
+User-agent: Baiduspider-news
+Disallow:
+
+User-agent: Baiduspider-video
+Disallow:
+
+User-agent: Baiduspider-image
+Disallow:
+
+User-agent: Sougou+web+spider
+Disallow:
+
+User-agent: Sosospider
+Disallow:
+
+User-agent: Yandex
+Disallow:
+
+User-agent: YandexPagechecker
+Disallow:
+
+User-agent: YandexDirect
+Disallow:
+
+User-agent: YandexWebmaster
+Disallow:
+
+User-agent: YandexZakladki
+Disallow:
+
+User-agent: YandexVideo
+Disallow:
+
+User-agent: YandexNews
+Disallow:
+
+User-agent: YandexCatalog
+Disallow:
+
+User-agent: YandexMarket
+Disallow:
+
+User-agent: YandexMedia
+Disallow:
+
+User-agent: YandexImages
+Disallow:
+
+User-agent: YandexFavicons
+Disallow:
+
+User-agent: YandexDirect
+Disallow:
+
+User-agent: YandexAntivirus
+Disallow:
+
+User-agent: YandexBlogs
+Disallow:
+
+User-agent: ExaBot
+Disallow:
+
+User-agent: grapeshot
+Disallow:
+
+User-agent: Huaweisymantecspider
+Disallow:
+
+User-agent: Xaldon_WebSpider
+Disallow:
