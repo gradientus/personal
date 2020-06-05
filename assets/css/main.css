@@ -136,6 +136,13 @@ h1 h2 h3 {
   border: var(--main-gray) 2px solid;
 }
 
+.project-img {
+  width: 100%;
+  max-width: 25rem;
+  height: auto;
+  max-height: 25rem;
+}
+
 .btn {
   background-color: green;
   font-size: 1.125rem;
