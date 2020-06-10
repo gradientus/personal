@@ -119,6 +119,9 @@ h1 h2 h3 {
 }
 
 #projects {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   background-color: var(--main-blue);
   padding-top: 3rem;
   text-align: center;
@@ -131,24 +134,33 @@ h1 h2 h3 {
 }
 
 .project-tile {
-  margin: 1rem 0.5rem 0 0.5rem;
+  /* margin: 1rem 1rem; */
   padding: 2rem 1rem;
-  text-align: left;
+  text-align: center;
   border: var(--main-gray) 2px solid;
+}
+
+.project-tile p {
+  text-align: left;
 }
 
 .project-img {
   width: 100%;
   max-width: 25rem;
   height: auto;
+  border: 2px var(--main-red) solid;
 }
 
 .btn {
-  background-color: var(--main-orange);
+  background-color: var(--main-red);
   font-size: 1.125rem;
   margin-top: 2rem;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   display: block;
+  border-radius: 6px;
+  /* width: 25rem; */
+  text-align: center;
+  color: var(--main-orange);
 }
 
 #contact {
