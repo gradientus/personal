@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;600;900&display=swap");
 
 :root {
-  --main-white: #f0f0f0;
-  --main-red: #be3144;
-  --main-blue: #45567d;
-  --main-gray: #303841;
-  --main-orange: #eca726;
+  --main-white: #f0edee;
+  --main-red: #0d0f13;
+  --main-blue: #222831;
+  --main-gray: #065790;
+  --main-orange: #ff9b42;
 }
 
 * {
@@ -144,7 +144,7 @@ h1 h2 h3 {
 }
 
 .btn {
-  background-color: green;
+  background-color: var(--main-orange);
   font-size: 1.125rem;
   margin-top: 2rem;
   padding: 0.5rem 1rem;
