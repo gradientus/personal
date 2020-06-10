@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;600;900&display=swap");
+
+:root {
+  --main-white: #f0edee;
+  --main-red: #0d0f13;
+  --main-blue: #222831;
+  --main-gray: #065790;
+  --main-orange: #ff9b42;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url("/assets/img/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: blur(2px);
+  filter: blur(1px);
+  border: none;
+  opacity: 0.75;
+} */
+
+body {
+  font-family: "Roboto", arial, sans-serif;
+  color: var(--main-white);
+}
+
+h1 h2 h3 {
+  font-family: "Lobster", cursive;
+  letter-spacing: 3px;
+  line-height: 2;
+}
+
+#navbar {
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  background-color: var(--main-red);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#navlist {
+  list-style-type: none;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  /* margin-left: -30px; */
+}
+
+.logo {
+  padding-top: 0.5rem;
+  width: 100%;
+  max-width: 2.5rem;
+  height: auto;
+}
+
+#navlist a {
+  text-decoration: none;
+}
+
+#navlist a:link {
+  color: var(--main-white);
+}
+#navlist a:visited {
+  color: var(--main-white);
+}
+#navlist a:hover {
+  color: var(--main-orange);
+}
+#navlist a:active {
+  color: var(--main-orange);
+}
+#navlist a:focus {
+  color: var(--main-orange);
+}
+
+#welcome-section {
+  height: 100vh;
+  text-align: center;
+  background-color: var(--main-gray);
+  padding-top: 8rem;
+}
+
+#welcome-header {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Lobster", cursive;
+  letter-spacing: 5px;
+}
+
+#welcome-p {
+  font-size: 1.75rem;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  background-color: var(--main-blue);
+  padding-top: 3rem;
+  text-align: center;
+  padding-top: 16rem;
+}
+
+#projects h2 {
+  font-family: "Lobster", cursive;
+  letter-spacing: 3px;
+}
+
+.project-tile {
+  /* margin: 1rem 1rem; */
+  padding: 2rem 1rem;
+  text-align: center;
+  border: var(--main-gray) 2px solid;
+}
+
+.project-tile p {
+  text-align: left;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 25rem;
+  height: auto;
+  border: 2px var(--main-red) solid;
+}
+
+.btn {
+  background-color: var(--main-red);
+  font-size: 1.125rem;
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  display: block;
+  border-radius: 6px;
+  /* width: 25rem; */
+  text-align: center;
+  color: var(--main-orange);
+}
+
+#contact {
+  background-color: var(--main-gray);
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+q {
+  padding-top: 0.8rem;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+#contact a:link {
+  color: var(--main-white);
+  text-decoration: none;
+}
+#contact a:visited {
+  color: var(--main-white);
+}
+
+#contact a:hover {
+  color: var(--main-orange);
+}
+
+#contact a:active {
+  color: var(--main-orange);
+}
+
+#contact a:focus {
+  color: var(--main-orange);
+}
+
+#contact ul {
+  padding: 1rem 0;
+}
+
+#contact li {
+  padding-top: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 8.5rem;
+}
+
+.fab,
+.fas {
+  padding-right: 0.66rem;
+}
+
+footer {
+  background-color: var(--main-gray);
+  font-size: small;
+  text-align: center;
+  z-index: 5;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  padding: 1rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+  #navlist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  #projects {
+    padding-top: 1rem;
+  }
+
+  #logo {
+    width: 100%;
+    max-width: 6rem;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
