@@ -1,7 +1,7 @@
 
 /* TEAM */
 Your title: Phillip Mauracher
-Site: gradientus+personal@gmail.com
+Site: gradientus@gmail.com
 Location: Denver, Colorado
 
 /* THANKS */
@@ -11,5 +11,5 @@ Name: Sadie Barraza Mauracher
 /* SITE */
 Last update: 2020/05/27
 Standards: HTML5, CSS3
-Components: 
+Components:
 Software: Visual Studio Code, Google Chrome, Git, GitHub
