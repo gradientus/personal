@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Open+Sans:wght@400;600;900&display=swap");
 
 :root {
-  --main-white: #f0edee;
-  --main-red: #0d0f13;
-  --main-blue: #222831;
-  --main-gray: #065790;
+  --font-white: #f0edee;
+  --nav-black: #0d0f13;
+  --project-gray: #222831;
+  --back-blue: #065790;
   --main-orange: #ff9b42;
 }
 
@@ -44,20 +44,20 @@ html {
 } */
 
 body {
-  font-family: "Roboto", arial, sans-serif;
-  color: var(--main-white);
+  font-family: "" Open Sans "", arial, sans-serif;
+  color: var(--font-white);
 }
 
 h1 h2 h3 {
-  font-family: "Lobster", cursive;
-  letter-spacing: 3px;
+  font-family: "La Belle Aurore";
+  letter-spacing: 5px;
   line-height: 2;
 }
 
 #navbar {
   margin: 0 auto;
   padding: 0.5rem 0;
-  background-color: var(--main-red);
+  background-color: var(--nav-black);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -85,10 +85,10 @@ h1 h2 h3 {
 }
 
 #navlist a:link {
-  color: var(--main-white);
+  color: var(--font-white);
 }
 #navlist a:visited {
-  color: var(--main-white);
+  color: var(--font-white);
 }
 #navlist a:hover {
   color: var(--main-orange);
@@ -103,14 +103,14 @@ h1 h2 h3 {
 #welcome-section {
   height: 100vh;
   text-align: center;
-  background-color: var(--main-gray);
+  background-color: var(--back-blue);
   padding-top: 8rem;
 }
 
 #welcome-header {
   font-size: 3rem;
   font-weight: 400;
-  font-family: "Lobster", cursive;
+  font-family: "La Belle Aurore";
   letter-spacing: 5px;
 }
 
@@ -122,7 +122,7 @@ h1 h2 h3 {
   display: flex;
   flex-direction: column;
   /* flex-wrap: wrap; */
-  background-color: var(--main-blue);
+  background-color: var(--project-gray);
   padding-top: 3rem;
   text-align: center;
   padding-top: 16rem;
@@ -130,7 +130,7 @@ h1 h2 h3 {
 
 #projects h2,
 #projects h3 {
-  font-family: cursive;
+  font-family: "La Belle Aurore";
   letter-spacing: 3px;
   margin-bottom: 1rem;
 }
@@ -139,24 +139,25 @@ h1 h2 h3 {
   /* margin: 1rem 1rem; */
   padding: 2rem 1rem;
   text-align: center;
-  border: var(--main-gray) 2px solid;
+  border: var(--back-blue) 2px solid;
 }
 
 .project-tile p {
   text-align: left;
-  line-height: 1.5;
+  line-height: 2;
+  margin-bottom: 0.5rem;
 }
 
 .project-img {
   width: 100%;
   max-width: 25rem;
   height: auto;
-  border: 2px var(--main-red) solid;
+  border: 2px var(--nav-black) solid;
   margin-bottom: 2rem;
 }
 
 .btn {
-  background-color: var(--main-red);
+  background-color: var(--nav-black);
   font-size: 1.125rem;
   margin-top: 2rem;
   padding: 1rem 1rem;
@@ -168,7 +169,7 @@ h1 h2 h3 {
 }
 
 #contact {
-  background-color: var(--main-gray);
+  background-color: var(--back-blue);
   text-align: center;
   padding-top: 1.5rem;
 }
@@ -180,11 +181,11 @@ q {
 }
 
 #contact a:link {
-  color: var(--main-white);
+  color: var(--font-white);
   text-decoration: none;
 }
 #contact a:visited {
-  color: var(--main-white);
+  color: var(--font-white);
 }
 
 #contact a:hover {
@@ -216,7 +217,7 @@ q {
 }
 
 footer {
-  background-color: var(--main-gray);
+  background-color: var(--back-blue);
   font-size: small;
   text-align: center;
   z-index: 5;
@@ -241,6 +242,7 @@ footer {
 
   #projects {
     padding-top: 1rem;
+    /* 2x2 here */
   }
 
   #logo {
@@ -251,4 +253,8 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
+  #projects {
+    padding-top: 1rem;
+    /* 3x3 here */
+  }
 }
