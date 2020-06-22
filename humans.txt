@@ -2,14 +2,16 @@
 /* TEAM */
 Your title: Phillip Mauracher
 Site: gradientus@gmail.com
-Location: Denver, Colorado
+Location: Denver Metro Area, Colorado
 
 /* THANKS */
 Name: Eddie Barraza
-Name: Sadie Barraza Mauracher
+Name: Sadie Barraza-Mauracher
+Name: Mina Mauracher
+Name: Pexels https://pixabay.com/users/Pexels-2286921
 
 /* SITE */
-Last update: 2020/05/27
+Last update: 2020/06/22
 Standards: HTML5, CSS3
 Components:
 Software: Visual Studio Code, Google Chrome, Git, GitHub

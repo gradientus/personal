@@ -25,26 +25,24 @@ html {
   box-sizing: inherit;
 }
 
-/* body:before {
+body:before {
   content: "";
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   z-index: -1;
-  background-image: url("/assets/img/background1.jpg");
+  background-image: url("/assets/img/post-it-notes-1284667.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-filter: blur(2px);
-  filter: blur(1px);
   border: none;
-  opacity: 0.75;
-} */
+  opacity: 1;
+}
 
 body {
-  font-family: "" Open Sans "", arial, sans-serif;
+  font-family: "Open Sans", arial, sans-serif;
   color: var(--font-white);
 }
 
@@ -103,7 +101,11 @@ h1 h2 h3 {
 #welcome-section {
   height: 100vh;
   text-align: center;
-  background-color: var(--back-blue);
+  /* background-color: var(--back-blue); */
+  /* background-image: url("/assets/img/posit-it-notes-1284667.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
   padding-top: 8rem;
 }
 
@@ -140,6 +142,7 @@ h1 h2 h3 {
   padding: 2rem 1rem;
   text-align: center;
   border: var(--back-blue) 2px solid;
+  border-radius: 6px;
 }
 
 .project-tile p {
@@ -154,6 +157,7 @@ h1 h2 h3 {
   height: auto;
   border: 2px var(--nav-black) solid;
   margin-bottom: 2rem;
+  border-radius: 6px;
 }
 
 .btn {
@@ -169,7 +173,7 @@ h1 h2 h3 {
 }
 
 #contact {
-  background-color: var(--back-blue);
+  /* background-color: var(--back-blue); */
   text-align: center;
   padding-top: 1.5rem;
 }
@@ -217,7 +221,7 @@ q {
 }
 
 footer {
-  background-color: var(--back-blue);
+  background-color: var(--nav-black);
   font-size: small;
   text-align: center;
   z-index: 5;
@@ -240,9 +244,17 @@ footer {
     align-items: center;
   }
 
+  #welcome-header {
+    font-size: 6rem;
+    font-weight: 900;
+    font-family: "La Belle Aurore";
+    letter-spacing: 0.8rem;
+    filter: drop-shadow(0 0 0.5rem #ca3b1b);
+  }
+
   .grid-container {
-    padding-top: 1rem;
     display: grid;
+    grid-gap: 0.5rem;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -255,8 +267,6 @@ footer {
 
 @media only screen and (min-width: 992px) {
   .grid-container {
-    padding-top: 1rem;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
