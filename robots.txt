@@ -2,76 +2,76 @@ User-agent: *
 Allow:
 
 User-agent: BaiduSpider
-Disallow:
+Disallow: / 
 
 User-agent: Baiduspider-news
-Disallow:
+Disallow: /
 
 User-agent: Baiduspider-video
-Disallow:
+Disallow: /
 
 User-agent: Baiduspider-image
-Disallow:
+Disallow: /
 
 User-agent: Sougou+web+spider
-Disallow:
+Disallow: /
 
 User-agent: Sosospider
-Disallow:
+Disallow: /
 
 User-agent: Yandex
-Disallow:
+Disallow: /
 
 User-agent: YandexPagechecker
-Disallow:
+Disallow: /
 
 User-agent: YandexDirect
-Disallow:
+Disallow: /
 
 User-agent: YandexWebmaster
-Disallow:
+Disallow: /
 
 User-agent: YandexZakladki
-Disallow:
+Disallow: /
 
 User-agent: YandexVideo
-Disallow:
+Disallow: /
 
 User-agent: YandexNews
-Disallow:
+Disallow: /
 
 User-agent: YandexCatalog
-Disallow:
+Disallow: /
 
 User-agent: YandexMarket
-Disallow:
+Disallow: /
 
 User-agent: YandexMedia
-Disallow:
+Disallow: /
 
 User-agent: YandexImages
-Disallow:
+Disallow: /
 
 User-agent: YandexFavicons
-Disallow:
+Disallow: /
 
 User-agent: YandexDirect
-Disallow:
+Disallow: /
 
 User-agent: YandexAntivirus
-Disallow:
+Disallow: /
 
 User-agent: YandexBlogs
-Disallow:
+Disallow: /
 
 User-agent: ExaBot
 Disallow:
 
 User-agent: grapeshot
-Disallow:
+Disallow: /
 
 User-agent: Huaweisymantecspider
-Disallow:
+Disallow: /
 
 User-agent: Xaldon_WebSpider
-Disallow:
+Disallow: /
