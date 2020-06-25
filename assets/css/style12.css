@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Open+Sans:wght@400;600;900&display=swap");
 
 :root {
-  --font-white: #f0edee;
+  --font-white: white;
   --nav-black: #0d0f13;
   --project-gray: #222831;
   --back-blue: #065790;
@@ -33,12 +33,12 @@ body:before {
   height: 100vh;
   width: 100%;
   z-index: -1;
-  background-image: url("/assets/img/post-it-notes-1284667.jpg");
+  background-image: url("/assets/img/post-it-notes.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border: none;
-  opacity: 1;
+  /* filter: grayscale(33%); */
 }
 
 body {
@@ -118,6 +118,7 @@ h1 h2 h3 {
 
 #welcome-p {
   font-size: 1.75rem;
+  display: inline-block;
 }
 
 #projects {
@@ -257,7 +258,7 @@ footer {
     font-weight: 900;
     font-family: "La Belle Aurore";
     letter-spacing: 0.8rem;
-    filter: drop-shadow(0 0 0.5rem #ca3b1b);
+    /* filter: drop-shadow(0 0 0.5rem #ca3b1b); */
   }
 
   .grid-container {
