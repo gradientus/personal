@@ -11,7 +11,7 @@ Name: Mina Mauracher
 Name: Pexels https://pixabay.com/users/Pexels-2286921
 
 /* SITE */
-Last update: 2020/06/22
+Last update: 2020/06/25
 Standards: HTML5, CSS3
 Components:
 Software: Visual Studio Code, Google Chrome, Git, GitHub
