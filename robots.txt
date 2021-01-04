@@ -2,7 +2,7 @@ User-agent: *
 Allow:
 
 User-agent: BaiduSpider
-Disallow: / 
+Disallow: /
 
 User-agent: Baiduspider-news
 Disallow: /
