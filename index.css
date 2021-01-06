@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ffbd60;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1 h2 h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.large-graphic {
+  background-color: #c89d8e;
+  display: none;
+}
+
+.small-graphic {
+  background-color: teal;
+  display: none;
+}
+
+.tiny,
+.tiny-2,
+.social {
+  display: none;
+}
+
+.medium {
+  background-color: black;
+  color: ghostwhite;
+  height: 1.5em;
+  text-align: center;
+  /* padding-top: 0.; */
+  font-size: 0.75em;
+  line-height: 1.5;
+}
